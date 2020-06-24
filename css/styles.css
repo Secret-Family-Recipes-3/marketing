@@ -136,7 +136,7 @@ footer a {
         display: flex;
         height: 300px;
         width: 80%;
-        
+
     }
     .hero a {
         width: 35%;
@@ -170,5 +170,37 @@ footer a {
         font-size: 3rem;
         justify-content: space-between;
         padding: 0 9%;
+    }
+}
+@media(max-width: 1000px){
+    .container h1 {
+        padding-top: 2%;
+    }
+    .hero a {
+        width: 20%;
+    }
+    .container {
+        width: 100%;
+    }
+    .container nav {
+        padding: 2% 11%;
+    }
+    .container a {
+        font-size: 3rem;
+        padding-right: 6%;
+    }
+    footer {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    footer nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    footer a {
+        justify-content: space-between;
+        padding: 0 8%;
     }
 }
